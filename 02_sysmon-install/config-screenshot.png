@@ -1,1 +1,24 @@
+This lab uses the [Olaf Hartong Sysmon Modular Configuration](https://github.com/olafhartong/sysmon-modular).
+
+Source
+
+- Repository: https://github.com/olafhartong/sysmon-modular
+- Direct config file used: [sysmonconfig.xml](https://raw.githubusercontent.com/olafhartong/sysmon-modular/master/sysmonconfig.xml)
+
+This config enables high-fidelity Windows telemetry for:
+
+- Process creation and termination (Event ID 1, 5)
+- Network connections (Event ID 3)
+- Registry tampering (Event ID 13)
+- DLL image loads (Event ID 7)
+- Driver loads (Event ID 6)
+- DNS queries (Event ID 22)
+- File creation (Event ID 11)
+- WMI events (Event ID 21)
+
+It also supports MITRE ATT&CK tagging for detection engineering.
+
+Modifications
+
+None yet. Future labs may include stripped-down configs for specific use cases (e.g., network-only or process-only).
 
