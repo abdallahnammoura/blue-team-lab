@@ -10,7 +10,6 @@ This is my Windows 10 home lab for learning SOC Analyst and Detection Engineerin
 - MITRE ATT&CK-mapped detection examples
 - All documented and reproducible
 
----
 
 #Tools Used
 - VirtualBox
