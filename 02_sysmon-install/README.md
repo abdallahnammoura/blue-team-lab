@@ -2,7 +2,7 @@ Blue Team Detection Lab
 
 This is my Windows 10 home lab for learning SOC Analyst and Detection Engineering skills.
 
-#What It Contains
+What It Contains
 
 - VirtualBox VM running Windows 10
 - Sysmon installed with Olaf Hartong's modular config
@@ -11,7 +11,7 @@ This is my Windows 10 home lab for learning SOC Analyst and Detection Engineerin
 - All documented and reproducible
 
 
-#Tools Used
+Tools Used
 - VirtualBox
 - Windows 10 Eval
 - Sysinternals Sysmon
